@@ -1,0 +1,34 @@
+	Nessa aula vamos falar sobre um novo método de estrutura de repetição, a chamada para que é conhecida como FOR em outras linguagens.
+Lembra das paradas de Python? É a mesma coisa, for e range.
+Como lá em PYTHON, aqui você também precisará  de 3 argumentos que serão separados por ponto e vírgulas.
+
+
+A estrutura de la vai ficar assim:
+
+
+para (início; final ; incremento){
+	execução de códigos:
+}
+
+Quando ficar difícil lembra-se de como funciona essa lógica, lembre-se do exemplo do contador.
+
+Ao invés de fazer:
+
+	inteiro c = 1;
+
+	enquanto (c <= 4){
+		escreva(c)
+		c ++
+	}
+
+Nesse novo método fazemos o seguinte: 
+
+Para (C; C <= 4; C++){
+	ESCREVA(C)
+}
+
+viu, só? Escrevemos o código em apenas uma linha de comando, usamos essa estrutura quando sabemos quantas vezes o laço irá se repetir.
+Sempre que o valor ultrapassar a margem que tu definiu, vamos marcar ele e dizer que ele está estourado.
+
+Sempre teremos a variável de controle, o contador e o incremento nesse método
+Ou seja, começamos com a inicialização, depois o teste l[ogico e por fim, o incremento / ação.

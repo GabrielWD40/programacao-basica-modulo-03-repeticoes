@@ -1,0 +1,12 @@
+Nessa aula, o professor Guanabara deu alguns exemplos de como contabilizar elementos por categoria com o exemplo de meninos e meninas.
+
+Nesse exemplo, nós precisaremos de um contador para realizar a operação até o número desejado.
+Precisaremos de uma variável para armazenas o número de meninas e outra para o número de meninos. Ambas iniciam com 0!
+
+
+aH, IMPORTANTE: LEMBRE-SE de que quando você colocar como caracter, use aspas simples na hora de fazer a comparação.
+Exemplo
+
+caracter genero
+
+if (genero == 'M')

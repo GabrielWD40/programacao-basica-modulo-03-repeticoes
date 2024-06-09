@@ -1,0 +1,6 @@
+Na aula de hoje iremos aprender a ler vários valores com laços.
+é aquela coisa de sempre, tudo que estiver dentro do looping será executado até que a estrutura de condição seja falsa.
+    > iSSO VALE PARA VALORES DE VARIÁVEIS, Prints e quaisquer outro comando.
+
+É importante que você sempre faça um teste de mesa para validar se o seu "while" está funcionando.
+Lembre-se que tudo que vem antes e depois do while serão executados apenas uma vez.

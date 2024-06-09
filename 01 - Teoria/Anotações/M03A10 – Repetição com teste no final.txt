@@ -1,0 +1,28 @@
+Nessa aula vamos falar sobre o teste de repetição com teste no final.
+
+A estrutura desse novo modo de repetição é diferente, pois a condição vai no final. 
+O que eu quero dizer com isso, primeiro ele faz a ação e depois a verificação.
+
+
+Se liga na sintax: 
+
+
+    faça{
+       atividade rotineira
+    }  enquanto(CONDIÇÃO)
+
+E não tem o melhor método, vai da sua escolha. Mas temos um exemplo bom dado em aula pelo professor Guanabara: 
+
+se lembra daquele exercício onde nós digitavamos números e perguntavamos se a pessoa queria continuar, com isso, tinhamos que fazer uma gambiarra numa string.
+Pro looping funcionar. Com esse método, isso não será mais necessário.
+
+
+O sentido desse código é o seguinte: Faça as coisas e verifique depois, se bater, repita as ações como looping. 
+
+faça, faça, faça (enquanto isso) --> está dentro da condição? sim? --> continue o faça, faça, faça....
+			|
+			|
+			V
+    Está fora da condição? sim? ENCERRA O LOOPÍNG.
+
+Essas anotações servem para a aula 11 também, pois a aula 11 é com os exercícios desse novo aprendizado.

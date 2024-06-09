@@ -1,0 +1,8 @@
+Flag é bandeira
+
+O flag é uma condição de parada pran nossa estrutura de repetição. É a condição que rompe o laço iterativo. Nessa aula, fizemos dois exemplos de flag, o de números relacionados a idade, ou seja, não criamos uma varíavel para armazenar o valor, apenas definimos que se o valor digitado fosse 999, o ciclo seria encerrado. 
+
+Agora, estamos falando de outro tipo de flag, que é a própria variável, que é aquele caso de 
+
+"DESEJA CONTINUAR? S / N"
+onde a resposta do usário é a própria variavel.

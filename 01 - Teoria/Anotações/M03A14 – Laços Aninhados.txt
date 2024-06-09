@@ -1,0 +1,29 @@
+Nessa aula vamos ver como fazer as repetições ficarem aninhadas, ou seja, uma dentro da outra.
+Isso serve para todas as linguagens inspiradas em C.
+
+Os alaços internos saão os primeiros a serem rodados, pois é uma questão de hierarquia. Chamamos de repetição multipla.
+Ou seja, ele vai rodar o laços internos várias vezes até ele completar e só depois, vai pro laço da camada acima.
+
+Quando a variável está com seu valor estourado e se inicia um novo laço, ela recomeça a sua contagem e retorna ao valor original.
+Ou seja, na codificação: 
+
+programa
+{
+	funcao inicio()
+	{
+		//variáveis que vamos utilizar		
+		inteiro x=-1, y=1
+		
+		//codificação:
+		para(x=1; x<=3;x++){
+			para(y=1; y<=2; y++){
+				escreva(x  + " " + y)
+				escreva("\n")
+			}
+		}
+	}
+}
+
+O valor de Y deixa de ser estourado quando o laço de X se repete.
+
+Isso acontece com todas as linguagens de programação com variável de controle.

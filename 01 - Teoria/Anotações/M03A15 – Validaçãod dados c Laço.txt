@@ -1,0 +1,62 @@
+Nesse módulo, vamos falar sobre validação de dados. Isso quer dizer que nós vamos fazer uma validação dos dados enviados através dos laços aninhados.
+Validar é ver se aquilo que você precisa que seja feito realmente foi.
+Vamos aos exemplos ministrados em aula: 
+
+O professor falou do gênero e idade de uma pessoa, que são lidos normalmente por:
+
+	escreva(Qual sua idade? Digite aqui: )
+	leia(idade)
+
+	escreva("Qual o seu gênero? [M /F]")
+	leia(genero)
+
+Uma das maneira de validar se isso está certo ou não, é fazer a estrutura faça enquanto: 
+
+    faça {
+
+	   escreva("Qual o seu gênero? [M /F]")
+	   leia(genero)
+
+    }enquanto(genero !="M" e genero!="F")
+
+    
+
+    faça {
+	   
+           //para casos onde o sistema tem um limite de idade, por exemplo:	     
+
+	   escreva(Qual sua idade? Digite aqui: )
+           leia(idade)
+	
+    }enquanto(idade < 0 ou idade > 130)	
+
+
+
+O professor deu um belo argumento que pode nos ajudar na resolução desses exercícios, é fazer a condição que satisfaça a condição correta e depois negala. Tipo nas aulas de lógica matemática, fazer a negação de uma condição.
+
+Nós também fizemos uma validação por meio de funções das bibliotecas.
+Na biblioteca de nomes, por exemplo, definimos uma obrigatoriedade de 3 letras ou mais nos nomes. Menor que isso daria erro e pediria pra reescrever. Além disso, você tem que importar algumas bibliotecas para poder fazer isso.
+
+Outra coisa legal é validar se um número ou letra digitado. 
+Nós criamos uma varíavel e fazemos uma condição nela, por exemplo:
+
+		inteiro idade_d
+		cadeia teclado
+
+		enquanto(verdadeiro){
+			escreva("\n\nDigite a sua idade: ")
+			leia (teclado)
+
+			//início da validação do que foi digitado:
+			se(ti.cadeia_e_inteiro(teclado, 10)){
+				idade_d = ti.cadeia_para_inteiro(teclado, 10)
+				se(idade_d >= 0 e idade_d <=130){
+					pare
+				}senao{
+					escreva("<<ERRO>> A idade deve ser entre 0 e 130\n")	
+				}
+			}senao{
+				escreva("<<ERRO>> Você deve digitar um número\n")
+			}
+		}
+

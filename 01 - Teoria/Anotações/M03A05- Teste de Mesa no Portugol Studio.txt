@@ -1,0 +1,8 @@
+Teste de Mesa:
+
+
+Essa metodologia serve para testar o seu laço e verificar se o mesmo vai funcionar.
+Para executar o teste de mesa no Portugol, vá ao lado direito da ferramenta e arraste as variáveis para baixo, e depois clique no "sapatinho" para que o programa execute passo a passo.
+
+
+Isso serve para quando você tiver um cálculo dando errado dentro de um laço.

@@ -1,0 +1,6 @@
+Nessa auloa vamos procurar o maior e menor valor de uma sequência.
+
+Quando for digitado o primeiro número automaticamente ele será o maior e menor número.
+Após ele, teremos que fazer um condicional para verificar as condições.
+
+Lembre-se de iniciarlizar as variáveis com 0 nas variávies, se não, vai dar problema.

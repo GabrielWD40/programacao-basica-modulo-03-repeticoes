@@ -1,0 +1,9 @@
+Nessa aula nós estamos falando de como parar um ciclo de repetição sem ser pelo flag ou, começo da enquanto.
+Vamos falar do comando 'PARE'
+
+O comando pare é para parar a estrutur de repetição, é uma meneira diferente de romper o laço iterativo.
+É mais comum quando você usar isso em laços verdadeiros (quando a condição é verdadeira).
+
+Você coloca uma condição dentro do looping e aí a cada iteração é feita a verificação.
+
+

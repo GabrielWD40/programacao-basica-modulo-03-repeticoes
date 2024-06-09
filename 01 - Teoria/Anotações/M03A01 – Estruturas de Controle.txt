@@ -1,0 +1,20 @@
+Nesse modo falaremos sobre iteração, ou seja, repetições;
+
+1º método: estrutura de repetição com teste lógico no início. Você conhece esse processo como estrutura "enquanto" ou "while".
+Lembre-se que quando você for usar condições, use o Losango. O losando pode ser um "se", um "enquanto" e outras estruturas.
+Se você observar nos exemplos de fluxo grama das aulas, verá que quando o Losango tem uma setinha voltando pro início, é um "enquanto".
+
+
+É como nos exemplos dos pratos dados pelo professor Guanabara. Ao invés de ficar escrevendo uma função para lavar cada prato, eu posso fazer uma condição de enquanto aquilo for assim, faça isso. Isso é, enquanto prato == sujo, prato == limpeza.
+
+Isso é uma estrutura de looping, uma estrutura de iteração.
+
+
+
+Se liga na representação do código:
+
+enquanto (condição que você escolher) {
+	função para quado a condição for satisfeita;
+}
+
+Sempre você vai ter um fluxo chegando, depois a condição que se for verdadeira, vai executar um determinado bloco de comandos infinitamente até que a condição seja satisfeita e o valor da condição seja falso, aí o fluxo se encerra.
